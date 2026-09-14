@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #F8F7FF;
+  --card: #FFFFFF;
+  --border: #E0E0F0;
+  --body: #4B5563;
+  --muted: #9CA3AF;
+
+  --grad-primary: linear-gradient(135deg, #5B4CF5 0%, #8B5CF6 100%);
+  --grad-pink: linear-gradient(135deg, #E040A0 0%, #F472B6 100%);
+  --grad-teal: linear-gradient(135deg, #0D9488 0%, #2DD4BF 100%);
+  --grad-amber: linear-gradient(135deg, #D97706 0%, #FBBF24 100%);
+  --grad-hero: linear-gradient(135deg, #5B4CF5 0%, #8B5CF6 50%, #E040A0 100%);
+}
