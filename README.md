@@ -99,21 +99,20 @@ Visit `http://localhost:5173`
 
 ## Project Structure
 
+```
 silentmeeting/
 ├── src/
-│ ├── components/
-│ │ ├── Upload.jsx # Upload + live recording interface
-│ │ ├── Processing.jsx # Analysis progress screen
-│ │ ├── Report.jsx # Full equity report dashboard
-│ │ └── LiveRecorder.jsx # Browser microphone recorder
-│ ├── App.jsx
-│ └── index.css
+│   ├── components/
+│   │   ├── Upload.jsx
+│   │   ├── Processing.jsx
+│   │   ├── Report.jsx
+│   │   └── LiveRecorder.jsx
+│   ├── App.jsx
+│   └── index.css
 ├── server/
-│ └── index.js # Express backend + AssemblyAI integration
+│   └── index.js
 └── README.md
-
----
-
+```
 ## Built By
 
 **Minahil Nadeem** — CS Graduate, UI/UX Designer & Frontend Developer  
